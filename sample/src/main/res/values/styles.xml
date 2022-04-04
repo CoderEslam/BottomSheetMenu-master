@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.BottomSheetMenuDialog.Custom">
+        <item name="bottom_sheet_menu_title_text_appearance">@style/TitleAppearance</item>
+        <item name="bottom_sheet_menu_list_text_appearance">@style/ListAppearance</item>
+        <item name="bottom_sheet_menu_grid_text_appearance">@style/GridAppearance</item>
+    </style>
+
+    <style name="TitleAppearance" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="ListAppearance" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="GridAppearance" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+</resources>
